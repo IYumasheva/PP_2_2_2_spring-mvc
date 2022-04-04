@@ -1,7 +1,5 @@
 package web.model;
 
-import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,15 +23,6 @@ public class Car {
         list.add(new Car("red", "Cayenne", "Porsche"));
         list.add(new Car("green", "Cayenne", "Porsche"));
         return list;
-    }
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "color='" + color + '\'' +
-                ", model='" + model + '\'' +
-                ", brand='" + brand + '\'' +
-                '}';
     }
 
     public String getColor() {
